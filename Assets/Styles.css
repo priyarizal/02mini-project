@@ -1,7 +1,7 @@
 body {
     color: rgb(163, 10, 163);
     background-image: linear-gradient(rgb(223, 217, 217), black);
-    transition: width 2s, height 4s;
+
 }
 
 h1,
@@ -29,6 +29,12 @@ h2 {
     margin-top: -10px;
     z-index: 1;
     background-color: rgb(171, 164, 164);
+
+}
+
+h2:hover {
+    transition: all 5s ease-out;
+    background-color: aqua;
 
 }
 

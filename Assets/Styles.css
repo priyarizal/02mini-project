@@ -1,3 +1,43 @@
-h1 {
+body {
+    color: rgb(163, 10, 163);
+    background-image: linear-gradient(rgb(223, 217, 217), black);
+    transition: width 2s, height 4s;
+}
+
+h1,
+.intro {
+    text-align: center
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+
+}
+
+section {
+    display: block;
+    width: 350px;
+    margin: 15px;
+    border: 2px dotted white;
+}
+
+h2 {
+    border: 2px solid white;
+    position: relative;
+    margin-top: -10px;
+    z-index: 1;
+    background-color: rgb(171, 164, 164);
+
+}
+
+code {
+    background-color: rgb(163, 10, 163);
+    color: white;
+    user-select: all;
+}
+
+footer {
+    text-align: center;
 }
